@@ -95,7 +95,7 @@
                     <a href="#" class="create-account-btn">Create account <span>→</span></a>
                 </div>
                 <div class="cng-image" style="flex-shrink: 0;">
-                    <img src="images/bike.png" alt="Scooter with map pins" style="width: 400px;">
+                    <img src="images/bike.png" alt="Scooter with map pins" style="width: 200px;">
                 </div>
             </div>
             
@@ -181,45 +181,132 @@
         </section>
         <section class="customer-reviews" id="money-transfer3">
     <h2>Customer success is our success</h2>
-    <div class="reviews-grid">
-        <div class="review-card">
-            <p>"As a seasoned developer always on the lookout for innovative designs, this template instantly grabbed my attention."</p>
-            <span>- Jamie Rivera</span>
-        </div>
-        <div class="review-card">
-            <p>"I was amazed at how quickly we were able to integrate this app into our workflow."</p>
-            <span>- Casey Jordan</span>
-        </div>
-        <div class="review-card">
-            <p>"Adopting this app for our team has streamlined our project management and improved communication across the board."</p>
-            <span>- Jordan Patels</span>
-        </div>
-        <div class="review-card">
-            <p>"Our team's productivity has skyrocketed since we started using this tool."</p>
-            <span>- Josh Smith</span>
-        </div>
-        <div class="review-card">
-            <p>"Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks."</p>
-            <span>- Taylor Kim</span>
-        </div>
-        <div class="review-card">
-            <p>"With this app, we can easily assign tasks, track progress, and manage documents all in one place."</p>
-            <span>- Sam Dawson</span>
-        </div>
-        <div class="review-card">
-            <p>"This app has completely transformed how I manage my projects and deadlines."</p>
-            <span>- Morgan Lee</span>
-        </div>
-        <div class="review-card">
-            <p>"The customizability and integration capabilities of this app are top-notch."</p>
-            <span>- Riley Smith</span>
-        </div>
-        <div class="review-card">
-            <p>"Its user-friendly interface and robust features support our dynamic needs."</p>
-            <span>- Casey Harper</span>
-        </div>
+    <div style="
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px; /* Adjust width as needed */
+    margin: auto; /* Center align the grid */
+">
+    <div style="
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-family: Arial, sans-serif; /* Ensure text is legible */
+    ">
+        <p style="
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #333; /* Dark color for better contrast */
+        "> "As a seasoned developer always on the lookout for innovative designs.." </p>
+        <span style="
+            display: block;
+            font-size: 0.9rem;
+            color: #555;
+        ">- Jamie Rivera</span>
     </div>
+    
+    <div style="
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-family: Arial, sans-serif;
+    ">
+        <p style="
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #333;
+        "> "Our team's productivity has skyrocketed since we started using this tool." </p>
+        <span style="
+            display: block;
+            font-size: 0.9rem;
+            color: #555;
+        ">- Josh Smith</span>
+    </div>
+    
+    <div style="
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-family: Arial, sans-serif;
+    ">
+        <p style="
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #333;
+        "> "This app has completely transformed how I manage my projects and deadlines." </p>
+        <span style="
+            display: block;
+            font-size: 0.9rem;
+            color: #555;
+        ">- Morgan Lee</span>
+    </div>
+    
+    <div style="
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-family: Arial, sans-serif;
+    ">
+        <p style="
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #333;
+        "> "The customizability and integration capabilities of this app are top-notch." </p>
+        <span style="
+            display: block;
+            font-size: 0.9rem;
+            color: #555;
+        ">- Riley Smith</span>
+    </div>
+    
+</div>
 </section>
+
+<style>
+    .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    grid-template-rows: repeat(2, auto); /* Creates 2 rows with auto height */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Space inside the container */
+}
+
+.review-card {
+    background-color: #fff; /* White background for the card */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center align text */
+}
+
+.review-card p {
+    font-size: 1rem; /* Font size for review text */
+    margin-bottom: 10px; /* Space below the text */
+}
+
+.review-card span {
+    display: block; /* Block display for the author name */
+    font-size: 0.9rem; /* Font size for author name */
+    color: #555; /* Dark gray color for the author name */
+}
+
+</style>
 
 <!-- FAQ Section -->
 <section class="faq-section" style="padding: 40px 20px; background-color: #f9f9f9;" id="money-transfer4">
